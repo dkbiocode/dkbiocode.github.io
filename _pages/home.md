@@ -13,7 +13,7 @@ author_profile: true
 classes: wide
    
 feature_row1:
-  - image_path: /assets/images/rnaseq-array.png # no quotes this time
+  - image_path: /assets/images/workflow_graphic.png # no quotes this time
     alt: "Workflows"
     excerpt: "High performance computing workflows for next-generation sequence and comparative genomics resources."
     url: "/Workflows/" # note that these can also be full urls that take people to other sites

@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "Workflows"
+    url: /Workflows/
+  - title: "Analysis"
+    url: /Analysis/
+  - title: "Visualization"
+    url: /Visualization/
+  - title: "Learning"
+    url: /Learning/

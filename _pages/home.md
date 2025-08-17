@@ -47,18 +47,18 @@ feature_row4:
 
 Portfolio of David King's stuff to highlight.
 
-# Resources
+# Workflows
 
 {% include feature_row id="feature_row1" type= "left" %}
 
-# Lectures
+# Analysis
 
 {% include feature_row id="feature_row2" type= "left" %}
 
-# Image Analysis Project
+# Visualization
 
 {% include feature_row id="feature_row3" type= "left" %}
 
-# ggplot Project
+# Learning
 
 {% include feature_row id="feature_row4" type= "left" %}

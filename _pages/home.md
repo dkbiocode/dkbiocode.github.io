@@ -13,7 +13,7 @@ author_profile: true
 classes: wide
    
 feature_row1:
-  - image_path: path_to_your_image.png # no quotes this time
+  - image_path: /assets/images/rnaseq-array.png # no quotes this time
     alt: "Workflows"
     excerpt: "High performance computing workflows for next-generation sequence and comparative genomics resources."
     url: "/Workflows/" # note that these can also be full urls that take people to other sites
@@ -47,7 +47,7 @@ feature_row4:
 
 Portfolio of David King's stuff to highlight.
 
-# Workflows
+# Workflow Development
 
 {% include feature_row id="feature_row1" type= "left" %}
 

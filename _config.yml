@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "David C. King"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a biologist whose workbench is the computer. My career has been about linking the investigator to the data through education, tools, and analysis."
+  bio              : "I am a biologist whose workbench is the computer. My career has been about linking the investigator to the data through analysis, visualization, and education."
   location         : "Colorado, USA"
   email            :
   links:

@@ -13,7 +13,7 @@ author_profile: true
 classes: wide
    
 feature_row1:
-  - image_path: /assets/images/nf-seq-split-run-dag.png 
+  - image_path: /assets/images/nf-seq-split-run-dag-zoom-out.png
     alt: "Workflows"
     excerpt: "High performance computing workflows for next-generation sequence and comparative genomics resources."
     url: "/Workflows/" # note that these can also be full urls that take people to other sites

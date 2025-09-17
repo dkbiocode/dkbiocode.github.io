@@ -18,31 +18,31 @@ feature_row1:
     excerpt: "High performance computing workflows for next-generation sequence and comparative genomics resources."
     url: "/Workflows/" # note that these can also be full urls that take people to other sites
     btn_class: "btn--inverse" # feel free to change the button style!
-    btn_label: "Submit Job"
+    btn_label: "Submit Job!"
     
 feature_row2:
   - image_path: path_to_your_image.png # no quotes this time
-    alt: "Lectures"
+    alt: "Analysis and Algorithms"
     excerpt: "Enter a relatively short description here"
-    url: "/lectures/" # note that these can also be full urls that take people to other sites
+    url: "/Analysis/" # note that these can also be full urls that take people to other sites
     btn_class: "btn--inverse" # feel free to change the button style!
-    btn_label: "Whatever you want your button to say"
-    
+    btn_label: "Engage!"
+
 feature_row3:
   - image_path: path_to_your_image.png # no quotes this time
-    alt: "Image Analysis Project"
-    excerpt: "Enter a relatively short description here"
-    url: "/image_analysis_project/" # note that these can also be full urls that take people to other sites
+    alt: "Visualization"
+    excerpt: "Projects and tools to interact with data"
+    url: "/Visualization/" # note that these can also be full urls that take people to other sites
     btn_class: "btn--inverse" # feel free to change the button style!
-    btn_label: "Whatever you want your button to say"
+    btn_label: "Look and See!"
 
 feature_row4:
   - image_path: path_to_your_image.png # no quotes this time
-    alt: "ggplot Project"
+    alt: "Instructional projects and resources"
     excerpt: "Enter a relatively short description here"
-    url: "/gglplot_project/" # note that these can also be full urls that take people to other sites
+    url: "/Learning/" # note that these can also be full urls that take people to other sites
     btn_class: "btn--inverse" # feel free to change the button style!
-    btn_label: "Whatever you want your button to say" 
+    btn_label: "Learn!"
 ---
 
 Portfolio of David King's stuff to highlight.

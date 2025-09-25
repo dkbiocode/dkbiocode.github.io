@@ -21,11 +21,18 @@ of the data given to the [analysis phase](/Analysis), so that progress is not on
 Here are several approaches designed to work on High Performance Computing clusters, namely Colorado University Research Computing (CURC) Summit and Alpine systems. I developed
 recent pipelines on CSU's Riviera HPC associated with the Data Science Research Institute.
 
-## Templates
+## History of HPC facilitation
 
-Example, coordination and wrapper code for different strategies of HPC workflows.
+I facilitated processing on an HPC in the absence of a module system for bioinformatics packages. Before widely adopting conda, we tried different approaches, including 
+Singularity containers and a local shared setup of installations that functioned like a virtual environment.
 
-### Nextflow
+Here are some examples
+
+* Containerized workflow for processing reads to counts in [mouse](https://github.com/dkbiocode/RNAseq_pipeline_mouse); [changes](https://github.com/erinosb/RNAseq_pipeline_mouse/compare/master...dkbiocode:RNAseq_pipeline_mouse:master?expand=1).
+* Reframed RNA-seq analysis workflow for array processing. Analyzed hisat2 discrepancies in [DSCI512 course repo](https://github.com/dkbiocode/DSCI512_RNAseqAnalyzers); [changes](https://github.com/erinosb/DSCI512_RNAseqAnalyzers/compare/master...dkbiocode:DSCI512_RNAseqAnalyzers:master?expand=1)
+
+### RNA/ChIP-seq
+
 
 * [split-run-nf](https://github.com/dkbiocode/split-run-nf): Take a large fastq file, split into chunks and run a tool, merging the output at the end. Good for parallelizing a tool that doesn't support multi-threading.
 

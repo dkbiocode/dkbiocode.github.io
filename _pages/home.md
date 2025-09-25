@@ -7,8 +7,8 @@ header:
   #image: /assets/images/header.jpeg
   #overlay_color: #"#5e616c"
   #overlay_image: /assets/images/fog_road.jpeg
-title: "  "
-tagline: "  "   
+title: "Overview"
+tagline: "Coding for Biology's future"   
 author_profile: true
 classes: wide
    

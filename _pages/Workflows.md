@@ -10,6 +10,14 @@ read_time: true
 
 ---
 
+Bioinformatic workflows and pipelines not only fosters analysis of big data, but version control tracks the evolution of a project. 
+This ensures reproducibility, and understanding, of approaches that took time to mature, both in terms of code and mastery of the subject. 
+
+My deligence with tracking changes in every project promotes the utmost reproducibility, best practice, and transparency.
+
+Here are several approaches designed to work on High Performance Computing clusters, namely Colorado University Research Computing (CURC) Summit and Alpine systems. I developed
+recent pipelines on CSU's Riviera HPC associated with the Data Science Research Institute.
+
 ## Templates
 
 Example, coordination and wrapper code for different strategies of HPC workflows.

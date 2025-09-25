@@ -13,15 +13,15 @@ author_profile: true
 classes: wide
    
 feature_row1:
-  - image_path: /assets/images/nf-seq-split-run-dag-zoom-out.png
+  - image_path: /assets/images/pipeline_dag_color.png
     alt: "Workflows"
-    excerpt: "High performance computing workflows for next-generation sequence and comparative genomics resources."
+    excerpt: "High performance computing workflows for reproducible and high-throughput analysis."
     url: "/Workflows/" # note that these can also be full urls that take people to other sites
     btn_class: "btn--inverse" # feel free to change the button style!
     btn_label: "Submit Job!"
     
 feature_row2:
-  - image_path: path_to_your_image.png # no quotes this time
+  - image_path: /assets/images/ELT2-ridgeplots.png # no quotes this time
     alt: "Analysis and Algorithms"
     excerpt: "Enter a relatively short description here"
     url: "/Analysis/" # note that these can also be full urls that take people to other sites

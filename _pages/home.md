@@ -23,10 +23,10 @@ feature_row1:
 feature_row2:
   - image_path: /assets/images/ELT2-ridgeplots.png # no quotes this time
     alt: "Analysis and Algorithms"
-    excerpt: "Enter a relatively short description here"
+    excerpt: "Versatile approaches and best practice"
     url: "/Analysis/" # note that these can also be full urls that take people to other sites
     btn_class: "btn--inverse" # feel free to change the button style!
-    btn_label: "Engage!"
+    btn_label: "Study!"
 
 feature_row3:
   - image_path: path_to_your_image.png # no quotes this time

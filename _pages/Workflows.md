@@ -4,7 +4,7 @@ permalink: /Workflows/
 class: wide
 header:
   overlay_image: # some/path
-title: "Workflows"
+title: "HPC and Workflows"
 #tagline: ""
 read_time: true
 
@@ -14,23 +14,23 @@ read_time: true
 
 ## HPC facilitation
 
-With my diverse technical background, I created a software system on HPC for use in the absence of a module system for bioinformatics packages. 
+In addition to my own analysis work, I served as the guru for HPC helping labs, courses, and collaborators implement their pipelines at CURC.
 
-Before widely adopting conda, we tried different approaches, including 
-Singularity containers and a local shared setup of installations that functioned like a virtual environment.
+**Selected Highlights**
 
-**Here are some examples:**
+* Hisat2 required [isolating collisions](https://github.com/erinosb/DSCI512_RNAseqAnalyzers/commit/0ae11a186533f7649a91b19c4b29b28866132ad4) when working in parallel
+* My approach for [seeding pseudoreplicate](https://github.com/meekrob/onish-summit-pipelines/blame/f15580ccd4b9ba5b8e09a97710afe6e344181bc7/ENCODE3/2c_self-pseudoreplicates.sbatch#L36) sampling was adopted by ENCODE
+* I fixed a bug in deepTools that failed to invoke their cluster diagnostics plot; [pull request](https://github.com/deeptools/deepTools/pull/1394)
 
-* Containerized workflow for processing reads to counts in [mouse](https://github.com/dkbiocode/RNAseq_pipeline_mouse); [changes](https://github.com/erinosb/RNAseq_pipeline_mouse/compare/master...dkbiocode:RNAseq_pipeline_mouse:master?expand=1).
-* Reframed RNA-seq analysis workflow for array processing. Analyzed hisat2 discrepancies in [DSCI512 course repo](https://github.com/dkbiocode/DSCI512_RNAseqAnalyzers); [changes](https://github.com/erinosb/DSCI512_RNAseqAnalyzers/compare/master...dkbiocode:DSCI512_RNAseqAnalyzers:master?expand=1)
-* Fixed a bug in deepTools; [pull request](https://github.com/deeptools/deepTools/pull/1394)
 
 ### modENCODE
 
 * Adapted modENCODE peak caller installation to run on CURC Summit; [changes](https://github.com/hms-dbmi/spp/compare/master...meekrob:spp:master?expand=1)
 * Implemented entire modENCODE ChIP-seq analysis pipeline (ENCODE3) on Summit HPC; [code](https://github.com/meekrob/onish-summit-pipelines/tree/master/ENCODE3)
-    * Interesting note: My solution for seeding random variates was adopted by ENCODE: [function](https://github.com/meekrob/onish-summit-pipelines/blame/f15580ccd4b9ba5b8e09a97710afe6e344181bc7/ENCODE3/2c_self-pseudoreplicates.sbatch#L36)
 
+Containerized workflow for processing reads to counts for [mouse genome analysis](https://github.com/erinosb/RNAseq_pipeline_mouse/compare/master...dkbiocode:RNAseq_pipeline_mouse:master?expand=1).
+Reframed [RNA-seq analysis workflow](https://github.com/dkbiocode/DSCI512_RNAseqAnalyzers) workflow for array processing 
+[changes](https://github.com/erinosb/DSCI512_RNAseqAnalyzers/compare/master...dkbiocode:DSCI512_RNAseqAnalyzers:master?expand=1).
 
 ## Workflows
 

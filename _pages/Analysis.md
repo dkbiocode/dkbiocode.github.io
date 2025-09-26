@@ -11,6 +11,7 @@ read_time: true
 ---
 
 <img src="/assets/images/ELT2-ridgeplots.png" alt="Ridgeplots and Tukey HSD">
+[Learn more about this analysis](#tukey-honest-significant-differences)
 
 ### Adapted from literature
 

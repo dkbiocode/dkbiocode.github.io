@@ -16,12 +16,11 @@ read_time: true
 
 In addition to my own analysis work, I served as the guru for HPC helping labs, courses, and collaborators implement their pipelines at CURC.
 
-**Selected Highlights**
+**Fun Highlights**
 
 * Hisat2 required [isolating collisions](https://github.com/erinosb/DSCI512_RNAseqAnalyzers/commit/0ae11a186533f7649a91b19c4b29b28866132ad4) when working in parallel
 * My approach for [seeding pseudoreplicate](https://github.com/meekrob/onish-summit-pipelines/blame/f15580ccd4b9ba5b8e09a97710afe6e344181bc7/ENCODE3/2c_self-pseudoreplicates.sbatch#L36) sampling was adopted by ENCODE
-* I fixed a bug in deepTools that failed to invoke their cluster diagnostics plot; [pull request](https://github.com/deeptools/deepTools/pull/1394)
-
+* [I fixed a bug ](https://github.com/deeptools/deepTools/pull/1394) in deepTools that failed to invoke their cluster diagnostics plot
 
 ### modENCODE
 

@@ -32,7 +32,7 @@ This is not a statistic, but a visualization of data cohesion.
 
 ### Mosaic plot
 
-**Question**: Are there classes of transcription factor binding 
+**Question**: What are the profiles of ELT-2 binding with regard to life stage and genetic effect?
 
 When looking for associations among multiple factors, a Chi-sq test can be used to determine if any combinations are represented more or less than 
 expected.  However, the &chi;<sup>2</sup> test only gives an overall *p-value*. There are methods to study the &chi;<sup>2</sup> residuals in order to see where the 

@@ -18,10 +18,9 @@ In addition to my own analysis work, I served as the guru for HPC helping labs, 
 
 **Selected Highlights**
 
-* Added tools to [Java Genomics Toolkit](https://github.com/timpalpant/java-genomics-toolkit/compare/master...meekrob:java-genomics-toolkit:master?expand=1#commits_bucket)
-* Hisat2 required [isolating collisions](https://github.com/erinosb/DSCI512_RNAseqAnalyzers/commit/0ae11a186533f7649a91b19c4b29b28866132ad4) when working in parallel
-* My approach for [seeding pseudoreplicate](https://github.com/meekrob/onish-summit-pipelines/blame/f15580ccd4b9ba5b8e09a97710afe6e344181bc7/ENCODE3/2c_self-pseudoreplicates.sbatch#L36) sampling was adopted by ENCODE
-* [I fixed a bug ](https://github.com/deeptools/deepTools/pull/1394) in deepTools that failed to invoke their cluster diagnostics plot
+* Hisat2 required [isolating collisions](https://github.com/meekrob/DSCI512_RNAseqAnalyzers/commit/0ae11a186533f7649a91b19c4b29b28866132ad4) to work properly during <span style="color: #b60000; font-weight: 500;">parallel execution.</span>
+* <span style="color: #b60000; font-weight: 600;">My approach</span> for [seeding pseudoreplicate sampling](https://github.com/meekrob/onish-summit-pipelines/blame/f15580ccd4b9ba5b8e09a97710afe6e344181bc7/ENCODE3/2c_self-pseudoreplicates.sbatch#L36) was <span style="color: #b60000; font-weight: 500;">adopted by ENCODE</span>
+* [I fixed a bug in **deepTools**](https://github.com/deeptools/deepTools/pull/1394) that failed to invoke their <span style="color: #b60000; font-weight: 400;">cluster diagnostics plot</span>.
 
 ### modENCODE
 
@@ -58,5 +57,5 @@ recent pipelines on CSU's Riviera HPC associated with the Data Science Research 
 ## Adapted from literature
 
 * [HyperTRIBE](https://github.com/rosbashlab/HyperTRIBE/compare/master...meekrob:HyperTRIBE:master?expand=1#commits_bucket); workflow for finding modifications in mRNA transcripts.
-* [Java Genomics Toolkit](https://github.com/timpalpant/java-genomics-toolkit/compare/master...meekrob:java-genomics-toolkit:master?expand=1#commits_bucket). Genomic analysis like bedtools, picard tools.
+* [Java Genomics Toolkit](https://github.com/timpalpant/java-genomics-toolkit/compare/master...meekrob:java-genomics-toolkit:master?expand=1#commits_bucket). Genomic analysis like bedtools and picard tools. I added functions to increase its versatility.
 

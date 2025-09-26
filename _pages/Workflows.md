@@ -16,20 +16,21 @@ read_time: true
 
 In addition to my own analysis work, I served as the guru for HPC helping labs, courses, and collaborators implement their pipelines at CURC.
 
-**Fun Highlights**
+**Selected Highlights**
 
+* Added tools to [Java Genomics Toolkit](https://github.com/timpalpant/java-genomics-toolkit/compare/master...meekrob:java-genomics-toolkit:master?expand=1#commits_bucket)
 * Hisat2 required [isolating collisions](https://github.com/erinosb/DSCI512_RNAseqAnalyzers/commit/0ae11a186533f7649a91b19c4b29b28866132ad4) when working in parallel
 * My approach for [seeding pseudoreplicate](https://github.com/meekrob/onish-summit-pipelines/blame/f15580ccd4b9ba5b8e09a97710afe6e344181bc7/ENCODE3/2c_self-pseudoreplicates.sbatch#L36) sampling was adopted by ENCODE
 * [I fixed a bug ](https://github.com/deeptools/deepTools/pull/1394) in deepTools that failed to invoke their cluster diagnostics plot
 
 ### modENCODE
 
-* Adapted modENCODE peak caller installation to run on CURC Summit; [changes](https://github.com/hms-dbmi/spp/compare/master...meekrob:spp:master?expand=1)
+* Adapted modENCODE peak caller installation to run on CURC Summit; [changes](https://github.com/hms-dbmi/spp/compare/master...meekrob:spp:master?expand=1#commits_bucket)
 * Implemented entire modENCODE ChIP-seq analysis pipeline (ENCODE3) on Summit HPC; [code](https://github.com/meekrob/onish-summit-pipelines/tree/master/ENCODE3)
 
-Containerized workflow for processing reads to counts for [mouse genome analysis](https://github.com/erinosb/RNAseq_pipeline_mouse/compare/master...dkbiocode:RNAseq_pipeline_mouse:master?expand=1).
+Containerized workflow for processing reads to counts for [mouse genome analysis](https://github.com/erinosb/RNAseq_pipeline_mouse/compare/master...dkbiocode:RNAseq_pipeline_mouse:master?expand=1#commits_bucket).
 Reframed [RNA-seq analysis workflow](https://github.com/dkbiocode/DSCI512_RNAseqAnalyzers) workflow for array processing 
-[changes](https://github.com/erinosb/DSCI512_RNAseqAnalyzers/compare/master...dkbiocode:DSCI512_RNAseqAnalyzers:master?expand=1).
+[changes](https://github.com/erinosb/DSCI512_RNAseqAnalyzers/compare/master...dkbiocode:DSCI512_RNAseqAnalyzers:master?expand=1#commits_bucket).
 
 ## Workflows
 

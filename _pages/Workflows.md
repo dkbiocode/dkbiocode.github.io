@@ -54,3 +54,9 @@ recent pipelines on CSU's Riviera HPC associated with the Data Science Research 
 ### SLURM
 
 * [SLURM scripting pipelines](https://github.com/dkbiocode/slurm-scripting-pipelines): Implement array branching and convergence using native SLURM commands.
+
+## Adapted from literature
+
+* [HyperTRIBE](https://github.com/rosbashlab/HyperTRIBE/compare/master...meekrob:HyperTRIBE:master?expand=1#commits_bucket); workflow for finding modifications in mRNA transcripts.
+* [Java Genomics Toolkit](https://github.com/timpalpant/java-genomics-toolkit/compare/master...meekrob:java-genomics-toolkit:master?expand=1#commits_bucket). Genomic analysis like bedtools, picard tools.
+

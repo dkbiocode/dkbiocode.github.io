@@ -17,8 +17,8 @@ Data analysis is the funnest part of research.  It goes from mystery to discover
 
 ## Multivariate/Multifactor Analysis
 
-Big data has the implicit challenge of deriving meaning from multiple different factors. I used the following methods to conceptualize and explore associates between groups
-off transcription factor binding, *C. elegans* developmental stage, gene expression level, and genetic modification.
+Big data has the implicit challenge of deriving meaning from multiple different factors. I used the following methods to conceptualize and explore associations between groups
+of transcription factor binding, *C. elegans* developmental stage, gene expression level, and genetic modification.
 
 These methods go beyond repeating simple statistical tests for all group levels and comparisons. They have a full concept of the data and the statistical question, do not exclude groups unconsidered in our framing of the question, and account for multiple comparisons.
 
@@ -50,8 +50,17 @@ With ANOVA, ask whether groups better explain the data. Our data has groups of m
 This analysis did not find the ELT-2 bound genes to be higher expressed. Most of the genes are known to be ELT-2 dependent, therefore this result suggests that the dependence is
 qualitative, not quantitative.
 
-### Adapted from literature
+### Correspondance analysis
 
-* [HyperTRIBE](https://github.com/rosbashlab/HyperTRIBE/compare/master...meekrob:HyperTRIBE:master?expand=1#commits_bucket); workflow for finding modifications in mRNA transcripts.
-* [Java Genomics Toolkit](https://github.com/timpalpant/java-genomics-toolkit/compare/master...meekrob:java-genomics-toolkit:master?expand=1#commits_bucket). Genomic analysis like bedtools, picard tools.
+### Categorical regression
+
+### Clustering
+
+**Question:**: What other transcription factors might explain gene expression in the intestine?
+
+The search continues for explanatory transcription factors. In <i>C. elegans</i>, there is a well-curated set of transcription factors. Many of these are known
+to be expressed in the intestine, and many were studied in the modENCODE project with ChIP-seq. This analysis identifies genome-wide patterns of binding.
+
+<img src="/assets/images/Other_TFs.png" alt="Heatmap of other transcription factors">
+
 

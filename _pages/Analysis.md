@@ -56,7 +56,7 @@ qualitative, not quantitative.
 
 ### Clustering
 
-**Question:**: What other transcription factors might explain gene expression in the intestine?
+**Question:** What other transcription factors might explain gene expression in the intestine?
 
 The search continues for explanatory transcription factors. In <i>C. elegans</i>, there is a well-curated set of transcription factors. Many of these are known
 to be expressed in the intestine, and many were studied in the modENCODE project with ChIP-seq. This analysis identifies genome-wide patterns of binding.

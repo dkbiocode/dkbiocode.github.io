@@ -10,7 +10,7 @@ read_time: true
 
 ---
 
-Data analysis is the funnest part of research.  It goes from mystery to discovery, even if that process ends at an exploratory phase. In the current 
+As genomic data analysis becomes increasingly AI-driven, experience with conventional statistics helps me understand the limitations, and the potential, of the new innovative practices. 
 
 <img src="/assets/images/ELT2-ridgeplots.png" alt="Ridgeplots and Tukey HSD">
 [Learn more about this analysis](#tukey-honest-significant-differences)

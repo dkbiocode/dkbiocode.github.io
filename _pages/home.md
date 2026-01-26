@@ -28,21 +28,21 @@ feature_row2:
     btn_class: "btn--inverse" # feel free to change the button style!
     btn_label: "Study!"
 
-feature_row3:
-  - image_path: path_to_your_image.png # no quotes this time
-    alt: "Visualization"
-    excerpt: "Projects and tools to interact with data"
-    url: "/Visualization/" # note that these can also be full urls that take people to other sites
-    btn_class: "btn--inverse" # feel free to change the button style!
-    btn_label: "Look and See!"
+# feature_row3:
+#   - image_path: path_to_your_image.png # TODO: Add visualization image
+#     alt: "Visualization"
+#     excerpt: "Projects and tools to interact with data"
+#     url: "/Visualization/"
+#     btn_class: "btn--inverse"
+#     btn_label: "Look and See!"
 
-feature_row4:
-  - image_path: path_to_your_image.png # no quotes this time
-    alt: "Instructional projects and resources"
-    excerpt: "Enter a relatively short description here"
-    url: "/Learning/" # note that these can also be full urls that take people to other sites
-    btn_class: "btn--inverse" # feel free to change the button style!
-    btn_label: "Learn!"
+# feature_row4:
+#   - image_path: path_to_your_image.png # TODO: Add learning/education image
+#     alt: "Instructional projects and resources"
+#     excerpt: "Interactive learning environments for bioinformatics and computational biology"
+#     url: "/Learning/"
+#     btn_class: "btn--inverse"
+#     btn_label: "Learn!"
 ---
 
 Portfolio of David King's stuff to highlight.
@@ -57,8 +57,8 @@ Portfolio of David King's stuff to highlight.
 
 # Visualization
 
-{% include feature_row id="feature_row3" type= "left" %}
+Coming soon: Projects and tools to interact with data
 
 # Learning
 
-{% include feature_row id="feature_row4" type= "left" %}
+Check out my [interactive learning environments](/Learning/) for bioinformatics and computational biology!

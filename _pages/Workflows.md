@@ -12,67 +12,79 @@ read_time: true
 
 ## Overview
 
-I specialize in building reproducible, high-performance bioinformatics workflows for genomic analysis. My work bridges the gap between computational infrastructure and biological discovery, helping research teams scale their analyses efficiently while maintaining scientific rigor.
+As a research scientist at Colorado State University, I develop computational workflows to investigate biological questions in developmental gene regulatory networks and host-vector dynamics in infectious diseases. My work focuses on implementing and optimizing bioinformatics pipelines that transform complex genomic datasets into biological insights.
 
-As an HPC workflow specialist at Colorado University Research Computing (CURC) and Colorado State University's Data Science Research Institute, I've supported labs, courses, and collaborators in implementing production-ready pipelines on Summit, Alpine, and Riviera HPC systems.
+I leverage High Performance Computing systems (CURC Alpine) to build production-ready workflows that are reproducible, scalable, and tailored to answer specific research questions. My computational expertise in Linux/Unix systems and open source software deployment enables me to bridge the gap between published methodologies and practical implementation.
 
 <img src="/assets/images/pipeline_dag_color.png" alt="Pipeline workflow figure">
 
-## Key Achievements
+## Research-Driven Workflow Development
 
-### Community Impact
-- **ENCODE Project Adoption**: My [seeding approach for pseudoreplicate sampling](https://github.com/meekrob/onish-summit-pipelines/blame/f15580ccd4b9ba5b8e09a97710afe6e344181bc7/ENCODE3/2c_self-pseudoreplicates.sbatch#L36) was adopted by the ENCODE consortium for their ChIP-seq pipeline
-- **Open Source Contribution**: Fixed a critical bug in [deepTools](https://github.com/deeptools/deepTools/pull/1394) that prevented cluster diagnostic plots from rendering
+### Viral Variant Calling Pipeline
+**Nextflow | CSU/CURC Alpine**
 
-### Technical Innovations
-- **Parallel Execution Optimization**: Solved [Hisat2 collision issues](https://github.com/meekrob/DSCI512_RNAseqAnalyzers/commit/0ae11a186533f7649a91b19c4b29b28866132ad4) during parallel execution, enabling concurrent processing without data corruption
-- **Workflow Scalability**: Designed strategies for parallelizing single-threaded tools through intelligent data chunking and merging
+Adapted a complex Nextflow workflow for investigating viral evolution and host-vector interactions. Key contributions include:
+- Designed filesystem organization strategy across /home, /project, and /scratch storage tiers for optimal performance on GPFS systems
+- Optimized CPU, memory, and walltime requests to minimize queue wait times while maintaining throughput
+- Modernized pipeline processes to improve code maintainability and execution efficiency
 
-## Workflow Projects
+This deployment engineering work transformed a theoretical workflow into a production tool capable of processing large-scale viral genomic datasets.
 
-### Nextflow Pipelines
+### modENCODE ChIP-seq Pipeline
+**SLURM/Bash | CSU/CURC Summit & Alpine**
 
-**[split-run-nf](https://github.com/dkbiocode/split-run-nf)**
-A Nextflow pipeline that parallelizes single-threaded bioinformatics tools by splitting large FASTQ files into chunks, processing them concurrently, and merging results. Ideal for dramatically reducing wall-clock time on tools that don't support native multi-threading.
+Implemented the complete modENCODE ChIP-seq analysis methodology for investigating transcription factor binding and gene regulation. Built a self-orchestrating SLURM pipeline featuring:
 
-### SLURM Orchestration
+- **Intelligent job management**: Script detects execution context (launch vs. execution mode) and submits itself with proper SLURM dependencies (e.g., `./pipeline.sh fastqc align bam` generates chained jobs: fastqc → align → bam)
+- **Complex branching logic**: Handles pseudoreplicate-based quality control including parallel peak calling and correlation analysis for reproducibility assessment
+- **End-to-end processing**: Raw sequencing reads through quality control, alignment, peak calling, and signal track generation
+- **Methodological contribution**: Developed a [pseudoreplicate seeding approach](https://github.com/meekrob/onish-summit-pipelines/blame/f15580ccd4b9ba5b8e09a97710afe6e344181bc7/ENCODE3/2c_self-pseudoreplicates.sbatch#L36) that was subsequently adopted by the ENCODE consortium
 
-**[SLURM Scripting Pipelines](https://github.com/dkbiocode/slurm-scripting-pipelines)**
-Advanced SLURM job arrays implementing branching and convergence patterns using native scheduler commands. Demonstrates efficient resource utilization and dependency management for complex multi-stage analyses.
+### split-run-nf
+**Nextflow | Original Design**
 
-### RNA-seq & ChIP-seq Workflows
+**[GitHub Repository](https://github.com/dkbiocode/split-run-nf)**
+
+Created a Nextflow pipeline from scratch to parallelize bioinformatics tools that lack native multi-threading support. The workflow intelligently splits large FASTQ files into chunks, processes them concurrently across multiple nodes, and merges results—dramatically reducing wall-clock time for computationally intensive single-threaded tools.
+
+## Supporting Workflows
+
+### RNA-seq Analysis Pipelines
 
 **[RNA-seq Array Processing](https://github.com/dkbiocode/DSCI512_RNAseqAnalyzers)**
-Redesigned an RNA-seq analysis workflow to eliminate directory collisions caused by Hisat2's temporary files during parallel SLURM array execution. This refactoring enabled multiple samples to be processed concurrently without interference, dramatically reducing total processing time for large datasets.
+Redesigned an RNA-seq workflow to eliminate directory collisions caused by Hisat2's temporary files during parallel SLURM array execution. This refactoring enabled concurrent sample processing without interference, significantly reducing total processing time for large datasets.
 
 **[Mouse Genome RNA-seq Pipeline](https://github.com/erinosb/RNAseq_pipeline_mouse)**
-Containerized end-to-end workflow processing raw sequencing reads to gene counts. Docker/Singularity containerization ensures consistent results across different computing environments and simplifies dependency management.
+Containerized end-to-end workflow (reads to gene counts) using Docker/Singularity. Ensures reproducible results across computing environments and simplifies dependency management.
 
-## ENCODE Pipeline Implementation
+**[SLURM Array Patterns](https://github.com/dkbiocode/slurm-scripting-pipelines)**
+Advanced SLURM job arrays demonstrating branching and convergence patterns using native scheduler commands for efficient resource utilization and dependency management.
 
-**[modENCODE ChIP-seq Pipeline](https://github.com/meekrob/onish-summit-pipelines/tree/master/ENCODE3)**
-Complete implementation of the ENCODE3 ChIP-seq analysis pipeline on CURC Summit HPC, including:
-- Adaptation of the modENCODE peak caller (SPP) for HPC environments ([changes](https://github.com/hms-dbmi/spp/compare/master...meekrob:spp:master?expand=1#commits_bucket))
-- Quality control, peak calling, and reproducibility assessment
-- Integration with SLURM scheduling for large-scale batch processing
+## HPC Implementation Expertise
 
-## Adapted Research Tools
+Throughout my work at CSU, I've supported labs, courses, and collaborators in deploying bioinformatics workflows on HPC systems:
 
-I've contributed to and adapted several published bioinformatics tools for HPC deployment:
+- **Systems**: CURC Summit, CURC Alpine, CSU Riviera
+- **Specialization**: SLURM optimization, filesystem strategy, resource tuning
+- **Open source troubleshooting**: Adapted published tools for HPC environments
 
-**[HyperTRIBE](https://github.com/rosbashlab/HyperTRIBE/compare/master...meekrob:HyperTRIBE:master?expand=1#commits_bucket)**
-Workflow for identifying RNA editing sites and modifications in mRNA transcripts.
+### Notable Technical Contributions
 
-**[Java Genomics Toolkit](https://github.com/timpalpant/java-genomics-toolkit/compare/master...meekrob:java-genomics-toolkit:master?expand=1#commits_bucket)**
-Enhanced this genomic analysis toolkit (similar to bedtools and Picard) with additional functions to increase versatility.
+**[deepTools Bug Fix](https://github.com/deeptools/deepTools/pull/1394)**
+Fixed a critical bug preventing cluster diagnostic plots from rendering, contributing to this widely-used genomics visualization toolkit.
+
+**Adapted Research Tools**
+- **[HyperTRIBE](https://github.com/rosbashlab/HyperTRIBE/compare/master...meekrob:HyperTRIBE:master?expand=1#commits_bucket)**: Adapted workflow for identifying RNA editing sites and modifications in mRNA transcripts
+- **[Java Genomics Toolkit](https://github.com/timpalpant/java-genomics-toolkit/compare/master...meekrob:java-genomics-toolkit:master?expand=1#commits_bucket)**: Enhanced functionality of this genomic analysis toolkit (similar to bedtools and Picard)
 
 ## Philosophy
 
-My approach to workflow development emphasizes:
-- **Reproducibility**: Comprehensive version control tracking every project evolution
-- **Transparency**: Well-documented code and clear dependency management
-- **Reliability**: Rigorous testing ensures trustworthy data for downstream [analysis](/Analysis)
-- **Scalability**: Designs that leverage HPC resources efficiently
+Effective computational workflows are essential infrastructure for biological discovery. My approach emphasizes:
 
-This diligence in workflow engineering establishes a solid foundation for advanced biological discovery.
+- **Reproducibility**: Comprehensive version control and clear dependency management
+- **Practicality**: Workflows optimized for real-world HPC constraints (queue times, storage, resources)
+- **Transparency**: Well-documented code enabling collaboration and knowledge transfer
+- **Biology-driven design**: Computational solutions tailored to specific research questions
+
+By building robust workflow infrastructure, I ensure that computational analysis serves as a reliable foundation for advancing biological understanding.
 

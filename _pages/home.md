@@ -36,13 +36,13 @@ feature_row3:
     btn_class: "btn--inverse"
     btn_label: "Look and See!"
 
-# feature_row4:
-#   - image_path: path_to_your_image.png # TODO: Add learning/education image
-#     alt: "Instructional projects and resources"
-#     excerpt: "Interactive learning environments for bioinformatics and computational biology"
-#     url: "/Learning/"
-#     btn_class: "btn--inverse"
-#     btn_label: "Learn!"
+feature_row4:
+  - image_path: /assets/images/shell-novice-screenshot.png
+    alt: "Instructional projects and resources"
+    excerpt: "Interactive learning environments for bioinformatics and computational biology"
+    url: "/Learning/"
+    btn_class: "btn--inverse"
+    btn_label: "Learn!"
 ---
 
 Portfolio of David King's stuff to highlight.
@@ -61,4 +61,4 @@ Portfolio of David King's stuff to highlight.
 
 # Learning
 
-Check out my [interactive learning environments](/Learning/) for bioinformatics and computational biology!
+{% include feature_row id="feature_row4" type= "left" %}

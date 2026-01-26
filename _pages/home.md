@@ -28,13 +28,13 @@ feature_row2:
     btn_class: "btn--inverse" # feel free to change the button style!
     btn_label: "Study!"
 
-# feature_row3:
-#   - image_path: path_to_your_image.png # TODO: Add visualization image
-#     alt: "Visualization"
-#     excerpt: "Projects and tools to interact with data"
-#     url: "/Visualization/"
-#     btn_class: "btn--inverse"
-#     btn_label: "Look and See!"
+feature_row3:
+  - image_path: /assets/images/MA-dash-10fps-50pc.gif
+    alt: "Visualization"
+    excerpt: "Projects and tools to interact with data"
+    url: "/Visualization/"
+    btn_class: "btn--inverse"
+    btn_label: "Look and See!"
 
 # feature_row4:
 #   - image_path: path_to_your_image.png # TODO: Add learning/education image
@@ -57,7 +57,7 @@ Portfolio of David King's stuff to highlight.
 
 # Visualization
 
-Coming soon: Projects and tools to interact with data
+{% include feature_row id="feature_row3" type= "left" %}
 
 # Learning
 

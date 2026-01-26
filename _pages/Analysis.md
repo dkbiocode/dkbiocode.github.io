@@ -55,9 +55,17 @@ With ANOVA, ask whether groups better explain the data. Our data has groups of m
 This analysis did not find the ELT-2 bound genes to be higher expressed. Most of the genes are known to be ELT-2 dependent, therefore this result suggests that the dependence is
 qualitative, not quantitative.
 
-### Correspondance analysis
+### Correspondence analysis
+
+**Question**: How does ELT-2 binding associate with other transcription factors in regulating intestinal gene expression?
+
+Building on the published work from Williams et al., this correspondence analysis explored the associations between ELT-2 binding sites and other published transcription factor binding sites (modENCODE), integrating the RNA-seq results from the Williams et al. publication. This multivariate approach suggested potential patterns of co-occupancy and potential regulatory interactions between ELT-2 and other transcription factors in the intestinal gene regulatory network.
 
 ### Categorical regression
+
+**Question**: Does gene expression level depend on ELT-2 binding status across different categorical groups?
+
+To rigorously test whether ELT-2 binding quantitatively affects gene expression, I performed systematic categorical regression testing interaction terms between binding status (bound vs. not bound) and expression levels determined by RNA-seq. This analysis ruled out quantitative dependence on ELT-2 binding categories, reinforcing that ELT-2's role in gene regulation is qualitative rather than simply correlating with higher expression levels.
 
 ### Clustering
 

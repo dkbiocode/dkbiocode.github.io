@@ -13,7 +13,7 @@ author_profile: true
 classes: wide
    
 feature_row1:
-  - image_path: /assets/images/pipeline_dag_color.png
+  - image_path: /assets/images/nextflow-workflow-thumb.png
     alt: "Workflows"
     excerpt: "High performance computing workflows for reproducible and high-throughput analysis."
     url: "/Workflows/" # note that these can also be full urls that take people to other sites

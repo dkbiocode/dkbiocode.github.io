@@ -16,7 +16,7 @@ As a research scientist at Colorado State University, I develop computational wo
 
 I leverage High Performance Computing systems (CURC Alpine) to build production-ready workflows that are reproducible, scalable, and tailored to answer specific research questions. My computational expertise in Linux/Unix systems and open source software deployment enables me to bridge the gap between published methodologies and practical implementation.
 
-<img src="/assets/images/pipeline_dag_color.png" alt="Pipeline workflow figure">
+<img src="/assets/images/extension-nextflow-screenshot.png" alt="Nextflow workflow screenshot">
 
 ## Research-Driven Workflow Development
 

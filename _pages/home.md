@@ -15,6 +15,7 @@ classes: wide
 feature_row1:
   - image_path: /assets/images/nextflow-workflow-thumb.png
     alt: "Workflows"
+    image_caption: "Nextflow workflow visualization showing modular pipeline design for genomic analysis"
     excerpt: "High performance computing workflows for reproducible and high-throughput analysis."
     url: "/Workflows/" # note that these can also be full urls that take people to other sites
     btn_class: "btn--inverse" # feel free to change the button style!
@@ -23,6 +24,7 @@ feature_row1:
 feature_row2:
   - image_path: /assets/images/ELT2-ridgeplots.png # no quotes this time
     alt: "Analysis and Algorithms"
+    image_caption: "Ridge plots showing differential gene expression patterns across developmental stages"
     excerpt: "Versatile approaches and best practice"
     url: "/Analysis/" # note that these can also be full urls that take people to other sites
     btn_class: "btn--inverse" # feel free to change the button style!
@@ -31,6 +33,7 @@ feature_row2:
 feature_row3:
   - image_path: /assets/images/MA-dash-10fps-50pc.gif
     alt: "Visualization"
+    image_caption: "Interactive MA plot dashboard for exploring differential expression data"
     excerpt: "Projects and tools to interact with data"
     url: "/Visualization/"
     btn_class: "btn--inverse"
@@ -39,6 +42,7 @@ feature_row3:
 feature_row4:
   - image_path: /assets/images/shell-novice-screenshot.png
     alt: "Instructional projects and resources"
+    image_caption: "Shell scripting tutorial environment running in GitHub Codespaces"
     excerpt: "Interactive learning environments for bioinformatics and computational biology"
     url: "/Learning/"
     btn_class: "btn--inverse"

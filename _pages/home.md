@@ -18,15 +18,15 @@ feature_row1:
     excerpt: "High performance computing workflows for reproducible and high-throughput analysis."
     url: "/Workflows/" # note that these can also be full urls that take people to other sites
     btn_class: "btn--inverse" # feel free to change the button style!
-    btn_label: "Submit Job!"
-    
+    btn_label: "Learn More"
+
 feature_row2:
   - image_path: /assets/images/ELT2-ridgeplots.png # no quotes this time
     alt: "Analysis and Algorithms"
     excerpt: "Versatile approaches and best practice"
     url: "/Analysis/" # note that these can also be full urls that take people to other sites
     btn_class: "btn--inverse" # feel free to change the button style!
-    btn_label: "Study!"
+    btn_label: "Learn More"
 
 feature_row3:
   - image_path: /assets/images/MA-dash-10fps-50pc.gif
@@ -34,7 +34,7 @@ feature_row3:
     excerpt: "Projects and tools to interact with data"
     url: "/Visualization/"
     btn_class: "btn--inverse"
-    btn_label: "Look and See!"
+    btn_label: "Learn More"
 
 feature_row4:
   - image_path: /assets/images/shell-novice-screenshot.png
@@ -42,10 +42,10 @@ feature_row4:
     excerpt: "Interactive learning environments for bioinformatics and computational biology"
     url: "/Learning/"
     btn_class: "btn--inverse"
-    btn_label: "Learn!"
+    btn_label: "Learn More"
 ---
 
-Portfolio of David King's stuff to highlight.
+I'm a research scientist specializing in computational biology and bioinformatics at Colorado State University. I build scalable workflows for genomic analysis, develop creative solutions for HPC implementation challenges, and bridge computational methods with experimental biology to advance our understanding of gene regulation and infectious disease dynamics. My approach combines technical rigor with innovative problem-solving to transform biological questions into actionable computational strategies.
 
 # Workflow Development
 

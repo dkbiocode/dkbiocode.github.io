@@ -12,14 +12,20 @@ read_time: false
 
 ## Selected Publications for David C. King
 
-<span class="mark" id="37183501">1. Williams RTP, King DC, Mastroianni IR, Hill JL, Apenes NW, Ramirez G, Miner EC, Moore A, Coleman K, Nishimura EO. *Transcriptome profiling of the Caenorhabditis elegans intestine reveals that ELT-2 negatively and positively regulates intestinal gene expression within the context of a gene regulatory network.* **Genetics**. 2023 Aug 9;224(4):iyad088. <br/>
+<span class="mark" id="41611818">1. Ogg, H.A., Mikol, Z.M., King, D.C. et al. *Altered histone modifications in Aedes aegypti midguts following Rift Valley fever virus exposure.* **Sci Rep** (2026). <br/>
 <span style="font-size: smaller">
-<a href="https://doi.org/10.1093/genetics/iyad088" target="_blank">doi:10.1093/genetics/iyad088</a>. 
-<a href="https://pubmed.ncbi.nlm.nih.gov/37183501/" target="_blank">PMID: 37183501</a>; 
+<a href="https://doi.org/10.1038/s41598-026-37729-y" target="_blank">doi: 10.1038/s41598-026-37729-y</a>.
+<a href="https://pubmed.ncbi.nlm.nih.gov/41611818/" target="_blank">PMID: 41611818</a>.</span>
+</span>
+
+<span class="mark" id="37183501">2. Williams RTP, King DC, Mastroianni IR, Hill JL, Apenes NW, Ramirez G, Miner EC, Moore A, Coleman K, Nishimura EO. *Transcriptome profiling of the Caenorhabditis elegans intestine reveals that ELT-2 negatively and positively regulates intestinal gene expression within the context of a gene regulatory network.* **Genetics**. 2023 Aug 9;224(4):iyad088. <br/>
+<span style="font-size: smaller">
+<a href="https://doi.org/10.1093/genetics/iyad088" target="_blank">doi:10.1093/genetics/iyad088</a>.
+<a href="https://pubmed.ncbi.nlm.nih.gov/37183501/" target="_blank">PMID: 37183501</a>;
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10411582/" target="_blank">PMCID: PMC10411582</a>.</span>
 </span>
 
-<span class="mark" id="36191188">2. Herman JA, Romain RR, Hoellerbauer P, Shirnekhi
+<span class="mark" id="36191188">3. Herman JA, Romain RR, Hoellerbauer P, Shirnekhi
 HK, King DC, DeLuca KF, Osborne Nishimura E, Paddison PJ, DeLuca JG.
 *Hyper-active RAS/MAPK introduces cancer-specific mitotic
 vulnerabilities.* **Proc Natl Acad Sci** U S A. 2022 Oct
@@ -30,7 +36,7 @@ vulnerabilities.* **Proc Natl Acad Sci** U S A. 2022 Oct
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9565228/" target="_blank">PMCID: PMC9565228</a>.</span>
 </span>
 
-<span class="mark" id="34056598">3. Cascarina SM, King DC, Osborne Nishimura E, Ross
+<span class="mark" id="34056598">4. Cascarina SM, King DC, Osborne Nishimura E, Ross
 ED. *LCD-Composer: an intuitive, composition-centric method enabling the
 identification and detailed functional mapping of low-complexity
 domains.* **NAR Genom Bioinform.** 2021 May 26;3(2):lqab048. <br/>
@@ -40,7 +46,7 @@ domains.* **NAR Genom Bioinform.** 2021 May 26;3(2):lqab048. <br/>
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8153834/" target="_blank">PMCID: PMC8153834</a>.</span>
 </span>
 
-<span class="mark" id="33647063">4. Kapuscinski ML, Bergren NA, Russell BJ, Lee JS,
+<span class="mark" id="33647063">5. Kapuscinski ML, Bergren NA, Russell BJ, Lee JS,
 Borland EM, Hartman DA, King DC, Hughes HR, Burkhalter KL, Kading RC,
 Stenglein MD. *Genomic characterization of 99 viruses from the
 bunyavirus families Nairoviridae, Peribunyaviridae, and Phenuiviridae,
@@ -52,7 +58,7 @@ including 35 previously unsequenced viruses.* **PLoS Pathog.** 2021 Mar
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7951987/" target="_blank">PMCID: PMC7951987</a>.</span>
 </span>
 
-<span class="mark" id="19887574">5. Cheng Y, Wu W, Kumar SA, Yu D, Deng W, Tripic T,
+<span class="mark" id="19887574">6. Cheng Y, Wu W, Kumar SA, Yu D, Deng W, Tripic T,
 King DC, Chen KB, Zhang Y, Drautz D, Giardine B, Schuster SC, Miller W,
 Chiaromonte F, Zhang Y, Blobel GA, Weiss MJ, Hardison RC. *Erythroid
 GATA1 function revealed by genome-wide analysis of transcription factor
@@ -64,7 +70,7 @@ occupancy, histone modifications, and mRNA expression.* **Genome Res**.
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2792182/" target="_blank">PMCID: PMC2792182</a>.</span>
 </span>
 
-<span class="mark" id="19767611">7. Zhang Y, Wu W, Cheng Y, King DC, Harris RS, Taylor
+<span class="mark" id="19767611">8. Zhang Y, Wu W, Cheng Y, King DC, Harris RS, Taylor
 J, Chiaromonte F, Hardison RC. *Primary sequence and epigenetic
 determinants of in vivo occupancy of genomic DNA by GATA1*. **Nucleic
 Acids Res**. 2009 Nov;37(21):7024-38. <br/>
@@ -74,7 +80,7 @@ Acids Res**. 2009 Nov;37(21):7024-38. <br/>
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2790884/" target="_blank">PMCID: PMC2790884</a>.</span>
 </span>
 
-<span class="mark" id="18818370">8. Cheng Y, King DC, Dore LC, Zhang X, Zhou Y, Zhang
+<span class="mark" id="18818370">9. Cheng Y, King DC, Dore LC, Zhang X, Zhou Y, Zhang
 Y, Dorman C, Abebe D, Kumar SA, Chiaromonte F, Miller W, Green RD, Weiss
 MJ, Hardison RC. *Transcriptional enhancement by GATA1-occupied DNA
 segments is strongly associated with evolutionary constraint on the
@@ -85,7 +91,7 @@ binding site motif.* **Genome Res**. 2008 Dec;18(12):1896-905. <br/>
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2593580/" target="_blank">PMCID: PMC2593580</a>.</span>
 </span>
 
-<span class="mark" id="17984227">9. Miller W, Rosenbloom K, Hardison RC, Hou M, Taylor
+<span class="mark" id="17984227">10. Miller W, Rosenbloom K, Hardison RC, Hou M, Taylor
 J, Raney B, Burhans R, King DC, Baertsch R, Blankenberg D, Kosakovsky
 Pond SL, Nekrutenko A, Giardine B, Harris RS, Tyekucheva S, Diekhans M,
 Pringle TH, Murphy WJ, Lesk A, Weinstock GM, Lindblad-Toh K, Gibbs RA,
@@ -98,7 +104,7 @@ Dec;17(12):1797-808. <br/>
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2099589/" target="_blank">PMCID: PMC2099589</a>.</span>
 </span>
 
-<span class="mark" id="17571346">10. ENCODE Project Consortium; *Identification and
+<span class="mark" id="17571346">11. ENCODE Project Consortium; *Identification and
 analysis of functional elements in 1% of the human genome by the ENCODE
 pilot project.* **Nature.** 2007 Jun 14;447(7146):799-816. <br/>
 <span style="font-size: smaller">
@@ -107,7 +113,7 @@ pilot project.* **Nature.** 2007 Jun 14;447(7146):799-816. <br/>
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2212820/" target="_blank">PMCID: PMC2212820</a>.</span>
 </span>
 
-<span class="mark" id="17567996">11. King DC, Taylor J, Zhang Y, Cheng Y, Lawson HA,
+<span class="mark" id="17567996">12. King DC, Taylor J, Zhang Y, Cheng Y, Lawson HA,
 Martin J; ENCODE groups for Transcriptional Regulation and Multispecies
 Sequence Analysis; Chiaromonte F, Miller W, Hardison RC. *Finding
 cis-regulatory elements using comparative genomics: some lessons from
@@ -118,7 +124,7 @@ ENCODE data.* **Genome Res.** 2007 Jun;17(6):775-86. <br/>
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1891337/" target="_blank">PMCID: PMC1891337</a>.</span>
 </span>
 
-<span class="mark" id="17053093">12. Taylor J, Tyekucheva S, King DC, Hardison RC,
+<span class="mark" id="17053093">13. Taylor J, Tyekucheva S, King DC, Hardison RC,
 Miller W, Chiaromonte F. *ESPERR: learning strong and weak signals in
 genomic sequence alignments to identify functional elements.* **Genome
 Res.** 2006 Dec;16(12):1596-604. <br/>
@@ -128,7 +134,7 @@ Res.** 2006 Dec;16(12):1596-604. <br/>
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1665643/" target="_blank">PMCID: PMC1665643</a>.</span>
 </span>
 
-<span class="mark" id="17038566">13. Wang H, Zhang Y, Cheng Y, Zhou Y, King DC, Taylor
+<span class="mark" id="17038566">14. Wang H, Zhang Y, Cheng Y, Zhou Y, King DC, Taylor
 J, Chiaromonte F, Kasturi J, Petrykowska H, Gibb B, Dorman C, Miller W,
 Dore LC, Welch J, Weiss MJ, Hardison RC. *Experimental validation of
 predicted mammalian erythroid cis-regulatory modules.* **Genome Res.**
@@ -139,7 +145,7 @@ predicted mammalian erythroid cis-regulatory modules.* **Genome Res.**
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1665632/" target="_blank">PMCID: PMC1665632</a>.</span>
 </span>
 
-<span class="mark" id="16024817">14. King DC, Taylor J, Elnitski L, Chiaromonte F,
+<span class="mark" id="16024817">15. King DC, Taylor J, Elnitski L, Chiaromonte F,
 Miller W, Hardison RC. *Evaluation of regulatory potential and
 conservation scores for detecting cis-regulatory modules in aligned
 mammalian genome sequences.* **Genome Res.** 2005 Aug;15(8):1051-60.<br/>
@@ -149,7 +155,7 @@ mammalian genome sequences.* **Genome Res.** 2005 Aug;15(8):1051-60.<br/>
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1182217/" target="_blank">PMCID: PMC1182217</a>.</span>
 </span>
 
-<span class="mark" id="15592404">15. International Chicken Genome Sequencing
+<span class="mark" id="15592404">16. International Chicken Genome Sequencing
 Consortium. *Sequence and comparative analysis of the chicken genome
 provide unique perspectives on vertebrate evolution.* **Nature**. 2004
 Dec 9;432(7018):695-716. <br/>
@@ -159,7 +165,7 @@ Dec 9;432(7018):695-716. <br/>
 <a href="https://pubmed.ncbi.nlm.nih.gov/15592404/" target="_blank">PMID: 15592404</a>.</span>
 </span>
 
-<span class="mark" id="15310388">16. Putta S, Smith JJ, Walker JA, Rondet M, Weisrock
+<span class="mark" id="15310388">17. Putta S, Smith JJ, Walker JA, Rondet M, Weisrock
 DW, Monaghan J, Samuels AK, Kump K, King DC, Maness NJ, Habermann B,
 Tanaka E, Bryant SV, Gardiner DM, Parichy DM, Voss SR. *From biomedicine
 to natural history research: EST resources for ambystomatid
@@ -170,7 +176,7 @@ salamanders.* **BMC Genomics**. 2004 Aug 13;5(1):54. <br/>
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC509418/" target="_blank">PMCID: PMC509418</a>.</span>
 </span>
 
-<span class="mark" id="14512358">17. Shah NH, King DC, Shah PN, Fedoroff NV. *A tool-kit
+<span class="mark" id="14512358">18. Shah NH, King DC, Shah PN, Fedoroff NV. *A tool-kit
 for cDNA microarray and promoter analysis.* **Bioinformatics**. 2003 Sep
 22;19(14):1846-8. <br/>
 <span style="font-size: smaller">

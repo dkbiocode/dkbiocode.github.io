@@ -124,5 +124,5 @@ eval $cmd
 echo -en "$NC"
 
 
-echo -e "${BOLD}Next steps:${NC} follow Kalani\'s tutorial to edit _config.yml, _data/navigation.yml, and _pages/homd.md"
+echo -e "${BOLD}Next steps:${NC} follow Kalani\'s tutorial to edit _config.yml, _data/navigation.yml, and _pages/home.md"
 

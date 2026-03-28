@@ -1,4 +1,11 @@
 #!/usr/bin/env bash
+# This script reproduces some of the primary steps
+# in Kalani Williams' github portfolio 
+# module in my class. 
+
+set -eu
+
+# use colors in the terminal only if interactive
 if [[ -t 1 && "$TERM" != "dumb" ]]; then
     RED='\033[0;31m'
     GREEN='\033[0;32m'
@@ -16,8 +23,10 @@ else
     NC=''
 fi
 
+# original tutorial 
 echo -e "${BLUE}Referencing Kalani Williams' tutorial at: ${BOLD}https://temporal-windscreen-639.notion.site/Github-Portfolio-Lesson-for-CM515-1e55bd019b2f80a7855feacaa46e4632${NC}"
 
+### blank out the minimal mistakes footprint that are in the way
 read -r -d '' dont_need <<EOF
 .editorconfig
 .gitattributes

@@ -5,5 +5,7 @@ search: false
 
 @charset "utf-8";
 
+$footer-background-color: #0d7377 !default;  // Dark teal - same as link hover color
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials

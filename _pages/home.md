@@ -8,7 +8,7 @@ header:
   #overlay_color: #"#5e616c"
   #overlay_image: /assets/images/fog_road.jpeg
 title: "Overview"
-tagline: "Coding for Biology"   
+tagline: "Bio-coded code"   
 author_profile: true
 classes: wide
    
@@ -21,7 +21,6 @@ feature_row1:
     btn_class: "btn--inverse" # feel free to change the button style!
     btn_label: "Learn More"
 
-feature_row2:
   - image_path: /assets/images/ELT2-ridgeplots.png # no quotes this time
     alt: "Analysis and Algorithms"
     image_caption: "Ridge plots showing differential gene expression patterns across developmental stages"
@@ -30,7 +29,6 @@ feature_row2:
     btn_class: "btn--inverse" # feel free to change the button style!
     btn_label: "Learn More"
 
-feature_row3:
   - image_path: /assets/images/MA-dash-10fps-50pc.gif
     alt: "Visualization"
     image_caption: "Interactive MA plot dashboard for exploring differential expression data"
@@ -53,7 +51,7 @@ I'm a research scientist specializing in computational biology and bioinformatic
 
 # Workflow Development
 
-{% include feature_row id="feature_row1" type= "left" %}
+{% include feature_row id="feature_row1"  %}
 
 # Analysis
 

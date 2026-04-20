@@ -23,4 +23,8 @@ workflows:
     - title: Arrayed RNA-seq workflows
       url: Workflows/#arrayed-rna-seq-analysis-pipelines
     
-  
+learning:
+  - title: "Online training environments"
+    url: /Learning/#metagenomics-analysis-and-shell-novice
+  - title: "Course coordination"
+    url: /Learning/#cm515-course-materials

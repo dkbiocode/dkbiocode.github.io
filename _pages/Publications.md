@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 permalink: /Publications/
 classes: wide
 header:

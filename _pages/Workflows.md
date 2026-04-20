@@ -19,10 +19,18 @@ I leverage High Performance Computing systems (CURC Alpine) to build production-
 
 <img src="/assets/images/extension-nextflow-screenshot.png" alt="Nextflow workflow screenshot">
 
-## Research-Driven Workflow Development
+## Research and Diagnostics Driven Workflow Development
+
+## Nextflow 
+
+### Somatic Tumor Variant Calling Pipeline
+
+### Long Read Assembly and Metagenomics Pipeline 
 
 ### Viral Variant Calling Pipeline
 **Nextflow | CSU/CURC Alpine**
+
+
 
 Adapted a complex Nextflow workflow for investigating viral evolution and host-vector interactions. Key contributions include:
 - Designed filesystem organization strategy across /home, /project, and /scratch storage tiers for optimal performance on GPFS systems
@@ -31,24 +39,18 @@ Adapted a complex Nextflow workflow for investigating viral evolution and host-v
 
 This deployment engineering work transformed a theoretical workflow into a production tool capable of processing large-scale viral genomic datasets.
 
-### modENCODE ChIP-seq Pipeline
-**SLURM/Bash | CSU/CURC Summit & Alpine**
+## SLURM 
 
-Implemented the complete modENCODE ChIP-seq analysis methodology for investigating transcription factor binding and gene regulation. Built a self-orchestrating SLURM pipeline featuring:
+Some pipelines are simple enough to implement with bash and SLURM dependency flags or arrays. The modENCODE Chip-seq analysis pipeline is not one of those, however- a workflow manager would have perfect for the consortium. 
 
-- **Intelligent job management**: Script detects execution context (launch vs. execution mode) and submits itself with proper SLURM dependencies (e.g., `./pipeline.sh fastqc align bam` generates chained jobs: fastqc → align → bam)
-- **Complex branching logic**: Handles pseudoreplicate-based quality control including parallel peak calling and correlation analysis for reproducibility assessment
-- **End-to-end processing**: Raw sequencing reads through quality control, alignment, peak calling, and signal track generation
-- **Methodological contribution**: Developed a [pseudoreplicate seeding approach](https://github.com/meekrob/onish-summit-pipelines/blame/f15580ccd4b9ba5b8e09a97710afe6e344181bc7/ENCODE3/2c_self-pseudoreplicates.sbatch#L36) that was subsequently adopted by the ENCODE consortium
+My submitter/batch hybrid script is a convenient substitute, however. It offers more control over job step invocation and runs without a parent control process (as needed by Nextflow). 
 
-### split-run-nf
-**Nextflow | Original Design**
+We needed an in-house implementation of modENCODE's ChIP-seq analysis methodology for investigating transcription factor binding and gene regulation. My pipeline was used to reproduce the results coming out of the consortium (our study was later published in Williams et al, 2023). 
 
-**[GitHub Repository](https://github.com/dkbiocode/split-run-nf)**
+It processes raw sequencing reads through quality control, alignment, peak calling, signal track generation, and statistical reproducibility analysis. 
 
-Created a Nextflow pipeline from scratch to parallelize bioinformatics tools that lack native multi-threading support. The workflow intelligently splits large FASTQ files into chunks, processes them concurrently across multiple nodes, and merges results—dramatically reducing wall-clock time for computationally intensive single-threaded tools.
+Although my primary goal was to reproduce and pre-existing workflow, the developers adopted my approach for [seeding pseudoreplicates](https://github.com/meekrob/onish-summit-pipelines/blame/f15580ccd4b9ba5b8e09a97710afe6e344181bc7/ENCODE3/2c_self-pseudoreplicates.sbatch#L36). The prior method reused the same hard-coded value to seed subsampling procedures across all read files, potentially introducing bias. 
 
-## Supporting Workflows
 
 ### RNA-seq Analysis Pipelines
 

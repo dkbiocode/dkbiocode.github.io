@@ -1,20 +1,26 @@
 # main links
 main:
-  - title: "Analysis"
-    url: /Analysis/
-  - title: "Visualization"
-    url: /Visualization/
-  - title: "Learning"
+  - title: "Analysis Pipelines"
+    url: /Workflows/
+  - title: "Educational Tools"
     url: /Learning/
   - title: "About"
     url: /About/
   - title: "Publications"
     url: /Publications/
 
-docs:
-  - title: "HPC and Workflows"
+workflows:
+  - title: "Nextflow"
     children:
-      - title: "Nextflow"
-        url: /Workflows/#nextflow
-      - title: "SLURM"
-        url: /Workflows/#slurm
+    - title: "Tumor Variant-calling"
+      url: /Workflows/#somatic-tumor-variant-calling-pipeline
+    - title: "Long read metagenomics"
+      url: Workflows/#long-read-assembly-and-metagenomics-pipeline
+  - title: "BASH/HPC"
+    children:
+    - title: Hybrid mode scripts
+      url: Workflows/#submitter-Runner
+    - title: Arrayed RNA-seq workflows
+      url: Workflows/#arrayed-rna-seq-analysis-pipelines
+    
+  

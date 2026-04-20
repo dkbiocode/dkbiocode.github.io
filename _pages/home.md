@@ -12,7 +12,7 @@ header:
     - label: "View Publications"
       url: "/Publications/"
 title: "Overview"
-excerpt: "**Bio-coded code** — Research scientist at Colorado State University. Building scalable workflows for genomic analysis. [Learn more about my work.](/Publications/)"   
+excerpt: "Research scientist at Colorado State University. Building scalable workflows for genomic analysis. [Learn more about my work.](/Publications/)"   
 author_profile: true
 classes: wide
    
@@ -37,7 +37,7 @@ feature_row1:
     alt: "Visualization"
     image_caption: "Comparison of occupancy score distributions for different gene expression classes"
     excerpt: "Comparison of occupancy score distributions for different gene expression classes"
-    url: "https://github.com/dkbiocode/dash-ma-plot"
+    url: "/Analysis/"
     btn_class: "btn--inverse"
     btn_label: "Learn More"
 
@@ -66,7 +66,7 @@ feature_row2:
 
 feature_row3:
   - image_path: /assets/images/shell-novice-screenshot.png
-    alt: "Instructional projects and resources"
+    alt: "Instructional projects"
     image_caption: "Shell scripting tutorial environment running in GitHub Codespaces"
     excerpt: "Interactive learning environments for bioinformatics and computational biology"
     url: "/Learning/"
@@ -87,7 +87,6 @@ David King is a computational biologist whose work centers on the genetic underp
 
 {% include feature_row id="feature_row2" %}
 
-
-# Cloud computing 
+# Cloud computing and training
 
 {% include feature_row id="feature_row3" %}

@@ -19,7 +19,7 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "David King Bioinformatics"
 title_separator          : "-"
-subtitle                 : "Bio-coded code"
+subtitle                 : #"Bio-coded code"
 name                     : "David C. King"
 description              : "Workflows, analyses, visualizations and tutorials for biological data."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"

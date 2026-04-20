@@ -1,12 +1,20 @@
 # main links
 main:
-  - title: "HPC and Workflows"
-    url: /Workflows/
   - title: "Analysis"
     url: /Analysis/
   - title: "Visualization"
     url: /Visualization/
   - title: "Learning"
     url: /Learning/
+  - title: "About"
+    url: /About/
   - title: "Publications"
     url: /Publications/
+
+docs:
+  - title: "HPC and Workflows"
+    children:
+      - title: "Nextflow"
+        url: /Workflows/#nextflow
+      - title: "SLURM"
+        url: /Workflows/#slurm

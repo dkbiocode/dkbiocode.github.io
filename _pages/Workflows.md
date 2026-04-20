@@ -1,7 +1,8 @@
 ---
 layout: single
 permalink: /Workflows/
-class: wide
+sidebar:
+  nav: "docs"
 header:
   overlay_image: # some/path
 title: "HPC and Workflows"

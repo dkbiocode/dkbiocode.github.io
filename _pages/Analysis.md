@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: splash
 permalink: /Analysis/
-class: wide
+classes: wide
 header:
   overlay_image: # some/path
 title: "Analysis"

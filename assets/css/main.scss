@@ -5,7 +5,21 @@ search: false
 
 @charset "utf-8";
 
-$footer-background-color: #0d7377 !default;  // Dark teal - same as link hover color
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+html {
+  font-size: 18px;
+}
+
+.feature__item .archive__item-teaser {
+  height: 200px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}

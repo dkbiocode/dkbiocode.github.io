@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "mint" # "aqua", "contrast", "air", "default", "dark", "dirt", "neon", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "mint","aqua", "contrast", "air", "default", "dark", "neon", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "David King Bioinformatics"
 title_separator          : "-"
-subtitle                 : "Coding the future of biology"
+subtitle                 : "Bio-coded code"
 name                     : "David C. King"
 description              : "Workflows, analyses, visualizations and tutorials for biological data."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "David C. King"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Computational Biologist"
+  bio              : "Research scientist and bioinformatician"
   location         : "Colorado, USA"
   email            :
   links:
@@ -313,25 +313,21 @@ compress_html:
 
 
 # Defaults
-#defaults:
-  # _posts
-#  - scope:
-#      path: ""
-#      type: posts
-#    values:
-#      layout: single
-#      author_profile: true
-#      read_time: true
-#      comments: # true
-#      share: true
-#      related: true
 
 defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
   # _pages
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: splash
       author_profile: true
       share: #true
+

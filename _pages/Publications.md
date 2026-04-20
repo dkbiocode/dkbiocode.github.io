@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: splash
 permalink: /Publications/
-class: wide
+classes: wide
 header:
   overlay_image: # some/path
 title: 

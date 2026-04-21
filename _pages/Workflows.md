@@ -15,8 +15,6 @@ read_time: true
 
 As a research scientist at Colorado State University, I develop computational workflows to investigate biological questions in developmental gene regulatory networks and host-vector dynamics in infectious diseases. My work focuses on implementing and optimizing bioinformatics pipelines that transform complex genomic datasets into biological insights.
 
-<img src="/assets/images/extension-nextflow-screenshot.png" alt="Nextflow workflow screenshot">
-
 ## Research and Diagnostics Driven Workflow Development
 
 ## Nextflow 
@@ -25,13 +23,13 @@ As a research scientist at Colorado State University, I develop computational wo
 
 This [nextflow pipeline](https://github.com/dkbiocode/variant-caller-nf) calls variants on Illumina reads and has modifications to track mutations in tumor biopsies after Lim et al. (2021)[^1], which follows patients with colorectal cancer who become resistant to anti-EGFR treatment.
 
-![Timeline](/assets/images/custom_timeline.png) 
+![This custom nextflow Timeline shows throughput of liquid biopsy samples](/assets/images/custom_timeline.png) 
 
 ### Long Read Assembly and Metagenomics Pipeline 
 
 [This Nextflow pipeline](https://github.com/dkbiocode/nanopore-meta-nf) is adapted from shell scripts for metagenomic analysis of long read sequencing of bacterial isolates.
 
-
+![This nextflow Timeline shows throughput of analysis of long reads](/assets/images/nanopore-timeline.png) 
 
 ## SLURM 
 

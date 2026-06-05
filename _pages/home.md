@@ -17,6 +17,14 @@ author_profile: true
 classes: wide
    
 feature_row1:
+  - image_path: /assets/images/ai_quality_threshold_plot_good.png
+    alt: "Software development/AI"
+    image_caption: "Auto-estimation of fastq quality trimming parameters"
+    excerpt: "Software Development/AI - Estimate parameters using AI in your workflow"
+    url: "https://github.com/dkbiocode/ai_quality_threshold"
+    btn_class: "btn--inverse"
+    btn_label: "Learn More"
+
   - image_path: /assets/images/WGCNA_dendrogram.png
     alt: "A Card showing WGCNA module output in the merging phase"
     image_caption: "Applying Network-based clustering methods with WGCNA"
@@ -33,13 +41,6 @@ feature_row1:
     btn_class: "btn--inverse" # feel free to change the button style!
     btn_label: "Learn More"
 
-  - image_path: /assets/images/ELT2-ridgeplots.png
-    alt: "Visualization"
-    image_caption: "Comparison of occupancy score distributions for different gene expression classes"
-    excerpt: "Comparison of occupancy score distributions for different gene expression classes"
-    url: "/Analysis/"
-    btn_class: "btn--inverse"
-    btn_label: "Learn More"
 
 feature_row2:
   - image_path: /assets/images/workflow-nf-screenshot-highcontrast.png
